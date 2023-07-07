@@ -1,0 +1,60 @@
+﻿  test.cpp
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(33,14): error C2246: 'TestCaseName_TestName3_Test::TestBody::A::c': illegal static data member in locally defined class
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(37,7): error C2976: 'std::array': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\utility(144,7): message : see declaration of 'std::array'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(39,2): error C2143: syntax error: missing ')' before 'new'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(39,6): error C2061: syntax error: identifier 's'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(41,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(43,1): error C2011: 'TestCaseName_TestName3_Test': 'class' type redefinition
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(20,1): message : see declaration of 'TestCaseName_TestName3_Test'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(43,1): error C2027: use of undefined type 'TestCaseName_TestName3_Test'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(20,1): message : see declaration of 'TestCaseName_TestName3_Test'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(55,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(55,3): error C2805: binary 'operator <' has too few parameters
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(56,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(56,3): error C2805: binary 'operator <=' has too few parameters
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(57,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(57,3): error C2805: binary 'operator >' has too few parameters
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(61,14): error C2246: 'TestBody::A::c': illegal static data member in locally defined class
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(66,1): error C2027: use of undefined type 'TestCaseName_TestName3_Test'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(66,1): message : see declaration of 'TestCaseName_TestName3_Test'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(66,1): error C2374: 'test_info_': redefinition; multiple initialization
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(43,1): message : see declaration of 'test_info_'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(66,1): error C2084: function 'void TestBody(void)' already has a body
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(43,1): message : see previous definition of 'TestBody'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(74,2): error C3861: 'strccmp': identifier not found
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(77,1): error C2027: use of undefined type 'TestCaseName_TestName3_Test'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(77,1): message : see declaration of 'TestCaseName_TestName3_Test'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(77,1): error C2374: 'test_info_': redefinition; multiple initialization
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(43,1): message : see declaration of 'test_info_'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(82,7): error C2672: 'std::sort': no matching overloaded function found
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\algorithm(8087,19): message : could be 'void std::sort(const _RanIt,const _RanIt)'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(82,7): message : 'void std::sort(const _RanIt,const _RanIt)': expects 2 arguments - 1 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\algorithm(8079,19): message : or       'void std::sort(const _RanIt,const _RanIt,_Pr)'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(82,7): message : 'void std::sort(const _RanIt,const _RanIt,_Pr)': expects 3 arguments - 1 provided
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(83,7): error C2672: 'std::reverse': no matching overloaded function found
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xutility(6093,19): message : could be 'void std::reverse(const _BidIt,const _BidIt)'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(83,7): message : 'void std::reverse(const _BidIt,const _BidIt)': expects 2 arguments - 1 provided
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(84,7): error C2672: 'std::shuffle': no matching overloaded function found
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\algorithm(5376,6): message : could be 'void std::shuffle(_RanIt,_RanIt,_Urng &&)'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(84,7): message : 'void std::shuffle(_RanIt,_RanIt,_Urng &&)': expects 3 arguments - 1 provided
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(85,7): warning C4551: function call missing argument list
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(85,21): error C2059: syntax error: '?'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(90,1): error C2027: use of undefined type 'TestCaseName_TestName3_Test'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(90,1): message : see declaration of 'TestCaseName_TestName3_Test'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(90,1): error C2374: 'test_info_': redefinition; multiple initialization
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(43,1): message : see declaration of 'test_info_'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(91,7): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\set(23,1): message : see declaration of 'std'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(91,7): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(91,19): error C2039: 'path': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\set(23,1): message : see declaration of 'std'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(91,24): error C2065: 'path': undeclared identifier
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(91,26): warning C4129: 's': unrecognized character escape sequence
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(91,26): warning C4129: 'd': unrecognized character escape sequence
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(92,2): error C2065: 'path': undeclared identifier
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(92,14): error C2017: illegal escape sequence
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(92,9): error C2065: 'path': undeclared identifier
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(92,16): error C2143: syntax error: missing ';' before 'string'
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(93,12): error C2065: 's1': undeclared identifier
+C:\Users\Oleh\source\repos\StaticLib1\Sample-Test1\test.cpp(93,27): error C2065: 's2': undeclared identifier
